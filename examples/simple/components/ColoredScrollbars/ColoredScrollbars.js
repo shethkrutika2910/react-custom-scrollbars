@@ -46,6 +46,7 @@ export default class ColoredScrollbars extends Component {
     render() {
         return (
             <Scrollbars
+                autoHide
                 renderView={this.renderView}
                 renderThumbHorizontal={this.renderThumb}
                 renderThumbVertical={this.renderThumb}
